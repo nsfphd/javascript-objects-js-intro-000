@@ -7,4 +7,5 @@ function updatePlaylist(plist, artist, song){
 
 function removeFromPlaylist(plist, artist){
   delete plist[arist]
+  return plist
 }
